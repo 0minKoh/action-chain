@@ -1,0 +1,12 @@
+condition,run,success,exact_rows,seconds,llm_calls,tool_calls,input_tokens,cached_input_tokens,uncached_input_tokens,output_tokens,reasoning_tokens,total_tokens
+baseline,1,true,20,25.855,6,5,150872,137728,13144,1213,128,152085
+baseline,2,true,20,25.675,5,4,125128,104192,20936,1071,88,126199
+baseline,3,true,20,71.394,9,8,320805,297728,23077,3998,996,324803
+baseline,4,true,20,25.272,5,4,125091,112384,12707,1126,173,126217
+baseline,5,true,20,69.081,13,12,462546,431872,30674,3156,649,465702
+action-chain,1,true,20,20.389,4,3,102761,91136,11625,682,155,103443
+action-chain,2,true,20,10.215,2,1,50186,32256,17930,386,30,50572
+action-chain,3,true,20,9.498,2,1,50571,40448,10123,294,29,50865
+action-chain,4,true,20,8.963,2,1,51236,40448,10788,325,55,51561
+action-chain,5,true,20,11.140,2,1,51271,46592,4679,361,76,51632
+
